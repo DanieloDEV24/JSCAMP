@@ -42,9 +42,9 @@ con proyectos prácticos y contenido orientado a la empleabilidad real.
 
 ## 🚀 Cómo ejecutar el proyecto
 
-\`\`\`bash
+```bash
 git clone https://github.com/tu-usuario/jscamp.git
 cd jscamp
 npm install
 npm run dev
-\`\`\`
+```
