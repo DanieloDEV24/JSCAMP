@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJobs - Empleos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
+            DevJobs
+        </h2>
+
+        <nav>
+            <a href="">Buscar</a>
+            <a href="./empleos.html">Empleos</a>
+            <a href="">Empresas</a>
+            <a href="">Servicios</a>
+        </nav>
+
+        <div>
+            <a href="">Publicar un empleo</a>
+            <a href="">Iniciar sesión</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-encuentra-trabajo">
+            <header>
+                <h1>Encuentra tu próximo trabajo.</h1>
+                <p>Explora miles de oportunidades en el sector tecnológico.</p>
+            </header>
+
+            <form role="search">
+                <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                </svg>
+
+                <input type="text" placeholder="Buscar empleos por título, habilidad o empresa" />
+                </div>
+            </form>
+
+            <div class="search-filters">
+                <datalist id="teconologias">
+                    <option value="HTML & CSS">
+                    <option value="JavaScript">
+                    <option value="Php">
+                </datalist>
+
+                <input type="text" name="teconologias" id="teconologias" list="teconologias" placeholder="Tecnología">
+
+                <datalist id="ubicacion">
+                    <option value="Málaga">
+                    <option value="Barcelona">
+                    <option value="Madrid">
+                </datalist>
+
+                <input type="text" name="ubicacion" id="ubicacion" list="ubicacion" placeholder="Ubicacion">
+
+                 <datalist id="experiencia">
+                    <option value="Más de 10 años">
+                    <option value="Entre 3 y 10 años">
+                    <option value="Menos de 3 años">
+                </datalist>
+
+                <input type="text" name="experiencia" id="experiencia" list="experiencia" placeholder="Nivel de experiencia">
+            </div>
+        </section>
+
+        <section class="resultados-busqueda">
+            <header>
+                <h3>Resultados de búsqueda.</h3>
+            </header>
+
+            <footer>
+                <article>
+                    <header>
+                        <div>
+                            <h4>Ingeniero de Software.</h4>
+                            <small>Tech Solutions | Remoto.</small>
+                        </div>
+                        <button>Aplicar</button>
+                    </header>
+                    <p>Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React, y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.</p>
+                </article>
+
+                <article>
+                    <header>
+                        <div>
+                            <h4>Analista de Datos.</h4>
+                            <small>Data Driven Co. | Ciudad de México.</small>
+                        </div>
+                        <button>Aplicar</button>
+                    </header>
+                    <p>Estámos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.</p>
+                </article>
+            </footer>
+            <nav>
+              
+                <a href="">&lt;</a>
+                <a href="">1</a>
+                <a class="is-active" href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">&gt;</a>
+        </section>
+    </main>
+    <footer>
+        <small>&copy; 2026 DevJobs. Todos los derechos reservados.</small>
+    </footer>
+</body>
+</html>
