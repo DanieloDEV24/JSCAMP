@@ -1,0 +1,13 @@
+article.ejemplo span ~ p {
+color: #09f;
+}
+
+article.ejemplo span + p {
+color: #7322dd;
+}
+
+span.prueba-linea {
+    background-color: red;
+    width: 500px;
+    height: 500px; 
+}

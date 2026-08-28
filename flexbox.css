@@ -1,0 +1,79 @@
+section.prueba1 {
+    border: 5px solid #ccc;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.container {
+    background-color: #09f;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+section.prueba2 {
+    border: 5px solid #ccc;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.container2 {
+    background-color: #09f;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+}
+
+section.flex {
+    width: 100vw;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* direction: rtl; */
+    /* writing-mode: vertical-lr ; */
+    /* flex-wrap: wrap; */
+    width: 250px;
+    height: 400px;
+    border: 2px solid #fff;
+    /* flex-wrap: wrap; */
+}
+
+section.flex div {
+    width: 50px;
+    height: 50px;
+    /* width: 100%; */
+
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto; */
+
+}
+
+section.flex div:first-of-type{
+    background-color: #09f;
+}
+
+section.flex div:last-of-type{
+    background-color: #F54927;
+}
+
+section.flex div:nth-of-type(2){
+    background-color: #2ecc71; /* el del medio */
+}
+
+
+body {
+    background-color: #000;
+}
