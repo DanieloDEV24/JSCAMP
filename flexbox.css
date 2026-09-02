@@ -47,7 +47,6 @@ section.flex {
     width: 250px;
     height: 400px;
     border: 2px solid #fff;
-    /* flex-wrap: wrap; */
 }
 
 section.flex div {
